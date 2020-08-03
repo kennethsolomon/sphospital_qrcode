@@ -1,0 +1,16 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    .qrNumber{
+        margin-top:118px;
+        margin-right:-115px;
+    }
+
+    .qrOutput{
+        float:right;
+    }
+}
+    
