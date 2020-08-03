@@ -78,7 +78,7 @@
             
         //display generated file
         echo '<img class="qrOutput" src="'.$PNG_WEB_DIR.basename($filename).'" />';  
-        echo '<p class="qrNumber qrOutput">'.(isset($_REQUEST['data'])?htmlspecialchars($_REQUEST['data']):'').'</p>';  
+        echo '<p class="qrNumber qrOutput no-print">'.(isset($_REQUEST['data'])?htmlspecialchars($_REQUEST['data']):'').'</p>';  
 
         
         //config form
